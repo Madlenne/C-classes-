@@ -37,23 +37,6 @@ Fraction* CreateFraction (const int up, const int down)
     }
     else
     {
-        /*Fraction **temp_arr=new Fraction*[fract_array.size];
-        for(int i = 0; i < fract_array.size; i++)
-        {
-            temp_arr[i]=new Fraction;
-            temp_arr[i]->numerator=fract_array.arr[i]->numerator;
-            temp_arr[i]->denominator=fract_array.arr[i]->denominator;
-        }
-
-        clear();
-        fract_array.arr = new Fraction *[fract_array.size+1];
-        for(int i = 0; i < fract_array.size; i++)
-        {
-            fract_array.arr[i]=new Fraction;
-            fract_array.arr[i]->numerator = temp_arr[i]->numerator;
-            fract_array.arr[i]->denominator = temp_arr[i]->denominator;
-        } */
-
         Fraction *temp_arr[fract_array.size];
 
         for(int i = 0; i < fract_array.size; i++)
